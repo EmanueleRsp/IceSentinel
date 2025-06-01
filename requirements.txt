@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+seaborn
+networkx
+joblib
+scikit-learn
+imbalanced-learn
+xgboost
+tqdm
+ipywidgets
+scikit-posthocs
+shap
+streamlit
+plotly
