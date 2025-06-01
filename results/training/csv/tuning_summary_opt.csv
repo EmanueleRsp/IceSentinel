@@ -1,0 +1,2 @@
+pipeline,best_cv_score,best_params
+XGB_ROS_RS_NoDR_Opt,0.5996975926016704,"{'sampler__sampling_strategy': 'auto', 'classifier__subsample': 0.49486413207039925, 'classifier__reg_lambda': 3.36965827544817, 'classifier__reg_alpha': 0.4113875507308893, 'classifier__n_estimators': 371, 'classifier__min_child_weight': 2, 'classifier__max_depth': 8, 'classifier__learning_rate': 0.02177217804898876, 'classifier__gamma': 0.06983140212909127, 'classifier__colsample_bytree': 0.7916017660292669, 'classifier__class_weight': None}"
