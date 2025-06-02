@@ -104,10 +104,10 @@ All data preprocessing and modeling steps are fully reproducible via the noteboo
   Drop irrelevant or fully missing columns, remove rows with incomplete data, merge rare classes, encode labels, and split data into time-aware training/validation/test sets.
 
 * **03 – Training**
-  Define and evaluate ML pipelines (sampling → scaling → optional dimensionality reduction → classifier) using expanding-window CV; tune hyperparameters for top candidates; select and retrain final models on historical data (2001–2020).
+  Define and evaluate ML pipelines (sampling → scaling → optional dimensionality reduction → classifier) using expanding-window CV; tune hyperparameters for top candidates; select and retrain final models on historical data (2001–2020); model optimization via importance ranking and RFE to build a reduced-feature pipeline (≈30 variables); validate performance on both CV and hold-out.
 
 * **04 – Second-Stage Analysis**
-  Final feature selection via importance ranking and RFE to build a reduced-feature pipeline (≈30 variables); validate performance on both CV and hold-out.
+  Short discussion about Discriminating Class 5.
 
 * **05 – Interpretability**
   Generate global and local explanations (feature-importance metrics, SHAP summary and dependence plots) to understand model behavior and key drivers behind each danger level.
