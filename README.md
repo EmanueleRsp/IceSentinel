@@ -12,7 +12,7 @@ Welcome to **IceSentinel**! 🚀 This repository contains everything you need—
 
 Avalanches are one of the most lethal natural hazards in mountainous regions. Accurately nowcasting avalanche danger levels—on a five-point scale from 1 (Low) to 5 (Very High)—is crucial for public safety and alpine tourism. Traditionally, experts combine meteorological observations, snowpack measurements, and physics-based simulations (e.g., SNOWPACK) to assign a daily danger level per region.
 
-**IceSentinel** aims to automate and streamline this process by leveraging ML pipelines. By ingesting hourly IMIS station data (half a million raw observations) alongside multi-layer SNOWPACK outputs (snow-stratigraphy profiles), IceSentinel delivers real-time, reproducible avalanche danger nowcasts *without* rerunning full physics-based models for each update. This accelerates decision-making, reduces subjective bias, and enables finer spatial 👀 and temporal resolution.
+**IceSentinel** aims to automate and streamline this process by leveraging ML pipelines. By ingesting hourly IMIS station data alongside multi-layer SNOWPACK outputs (snow-stratigraphy profiles), IceSentinel delivers real-time, reproducible avalanche danger nowcasts *without* rerunning full physics-based models for each update. This accelerates decision-making, reduces subjective bias, and enables finer spatial 👀 and temporal resolution.
 
 **Key objectives**:
 
