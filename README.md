@@ -4,7 +4,7 @@
 *Emanuele Respino | Università di Pisa, Master’s Degree in Artificial Intelligence and Data Engineering*
 Academic Year 2024/2025
 
-Welcome to **IceSentinel**! 🚀 This repository contains everything you need—code, documentation, datasets, pretrained models, and notebook workflows—to nowcast and forecast avalanche danger levels at IMIS stations in the Swiss Alps using state-of-the-art machine learning.
+Welcome to **IceSentinel**! 🚀 This repository contains everything you need—code, documentation, datasets, pretrained models, and notebook workflows—to nowcast and forecast avalanche danger levels at IMIS stations in the Swiss Alps using machine learning.
 
 ---
 
