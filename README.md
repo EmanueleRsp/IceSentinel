@@ -178,6 +178,9 @@ Full documentation is packaged under `documentation/`:
 * **Project Proposal.pdf**
   Initial proposal slide deck (problem statement, dataset overview, workflow outline, references). 💡
 
+* **Project Presentation.pdf**
+  Presentation slide deck (project report summary). ✨
+  
 ---
 
 ## 📖 Citation & References
