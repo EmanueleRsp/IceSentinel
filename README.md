@@ -137,10 +137,6 @@ import pickle
 
 with open("models/XGB_ROS_RS_NoDR_Opt.pkl", "rb") as f:
     xgb_model = pickle.load(f)
-
-# Example inference on a single 30-dim feature vector `x`:
-#   probs = xgb_model.predict_proba([x])[0]    # array of length 4 (classes 0–3, map back to 1–4)
-#   danger_pred = xgb_model.predict([x])[0]    # integer 0–3 (→ +1 for actual danger level)
 ```
 
 ---
