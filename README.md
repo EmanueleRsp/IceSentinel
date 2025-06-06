@@ -47,7 +47,6 @@ IceSentinel/
 │  ├─ 01 - Exploratory Data Analysis.ipynb     # EDA: class imbalances, missing data, correlations, PCA 📊
 │  ├─ 02 - Preprocessing.ipynb                 # Feature pruning, missing-value removal ✂️
 │  ├─ 03 - Training.ipynb                      # Pipeline screening, hyperparameter tuning, model selection 🤖
-│  ├─ 04 - Second Stage Analysis.ipynb         # Focus on discussing class 5 discrimination 🎯
 │  ├─ 05 - Interpretability.ipynb              # Feature importance, SHAP analyses (global & local) 🧩
 │  └─ 06 - Interface.ipynb                     # GUI prototype (Streamlit) 🌐
 │
@@ -105,9 +104,6 @@ All data preprocessing and modeling steps are fully reproducible via the noteboo
 
 * **03 – Training**
   Define and evaluate ML pipelines (sampling → scaling → optional dimensionality reduction → classifier) using expanding-window CV; tune hyperparameters for top candidates; select and retrain final models on historical data (2001–2020); model optimization via importance ranking and RFE to build a reduced-feature pipeline (≈30 variables); validate performance on both CV and hold-out.
-
-* **04 – Second-Stage Analysis**
-  Short discussion about Discriminating Class 5.
 
 * **05 – Interpretability**
   Generate global and local explanations (feature-importance metrics, SHAP summary and dependence plots) to understand model behavior and key drivers behind each danger level.
