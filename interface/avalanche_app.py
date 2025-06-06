@@ -175,7 +175,12 @@ def upload_and_show_predictions(model):
     st.write("#### Input data:")
     st.dataframe(df)
     st.write("#### Predictions:")
-    st.dataframe(pred_df[['Predicted Level'] + [col for col in pred_df.columns if col.startswith('Prob_')]])
+    # Expected danger level is computed as a weighted sum of probabilities
+    prob_cols = [col for col in pred_df.columns if col.startswith('Prob_')]
+    weights = np.arange(1, len(prob_cols) + 1)
+    pred_df['Expected danger level'] = pred_df[prob_cols].values @ weights
+    predictions_df = pred_df[['Predicted Level', 'Expected danger level'] + prob_cols]
+    st.dataframe(predictions_df)
     return df, pred_df
 
 
